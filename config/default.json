@@ -1,0 +1,37 @@
+{
+  "PORT": 3000,
+  "key": "some-secret-key",
+  "mongodb": "",
+  "mail": {
+    "subject": "Сообщение с сайта",
+    "smtp": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "test@gmail.com",
+        "pass": "test"
+      }
+    }
+  },
+  "infoMessages": {
+    "addGoods": {
+      "message": "Товар добавлен!"
+    },
+    "updateDataSkills": {
+      "message": "Данные обновленны!"
+    },
+    "emptyFields": {
+      "message": "Все поля нужно заполнить!"
+    },
+    "sendMailError": {
+      "message": "Ошибка при отправке письма:"
+    },
+    "sendMailSucsses": {
+      "message": "Письмо отправленно успешно!"
+    },
+    "errorAuth": {
+      "message": "Вы ввели неправильный email или пароль!"
+    }
+  }
+}
